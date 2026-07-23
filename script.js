@@ -108,7 +108,7 @@ function showReport() {
     });
     
     if (reportHTML === '') {
-        reportHTML = '<p style="text-align: center; color: #888;">Ничего не продано</p>';
+        reportHTML = '<p style="text-align: center; color: #888;">Нет данных</p>';
     }
     
     reportHTML += `<div class="report-total">ИТОГО: ${totalItems} шт.</div>`;
